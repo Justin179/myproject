@@ -8,6 +8,8 @@ fun main() {
 
     var name : String
     name = "justin"
+
+    var age = 10;
 }
 
 class Person{
