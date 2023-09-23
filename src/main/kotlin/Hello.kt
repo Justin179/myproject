@@ -1,6 +1,21 @@
 package org.justin
 
 fun main() {
-    println("hello")
-    println("hello")
+    // Person().sayHello()
+
+    val person = Person();
+    person.sayHello()
+
+    var name : String
+    name = "justin"
 }
+
+class Person{
+    fun sayHello(){
+        println("say hello")
+    }
+}
+
+
+
+
